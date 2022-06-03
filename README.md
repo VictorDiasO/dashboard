@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Admin Dashboard for Newsletter Business Owners
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It's basically a Admin Dashboard with some CSS animations and really cool features, that I'll improve when have time.
+I started to learn about this site just for understand more about:
+- TailwindCSS;
+- CSS;
+- Responsibility;
+- ReactJS;
+- Kanban Model;
+- Calendar Logic;
 
-## Available Scripts
+And I've really learned good things from here.
 
-In the project directory, you can run:
+## Try it right now!!
+- https://dashboard-one-beryl.vercel.app/
 
-### `npm start`
+You can access the site above to try the application. Now Im using just a context to save the changes, so nothing here will be saved.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
+- Here you'll find a big resume of the news in your "Newsletter Business".
+<img src="https://github.com/VictorDiasO/dashboard/blob/main/images/resume.JPG" alt='The "Resume" section' width="700" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- In that Kanban you can see what your team are doing, what news they're looking and thinking to write down in your newsletter.
+<img src="https://github.com/VictorDiasO/dashboard/blob/main/images/kanban.JPG" alt='The "Kanban application" section' width="700" />
 
-### `npm test`
+- In this calendar you can do the plan of meetings and tasks for the employees or for you, but all the "admin" people can access your plans.
+<img src="https://github.com/VictorDiasO/dashboard/blob/main/images/calendar.JPG" alt='The "Calendar application" section' width="700" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Im on the journey to learn more about CSS, I always want to be a Full-Stack, but the CSS is a good challenge for me.
+Im starting now and I create a "Week challenge", every week I will see a youtube tutorial to help me, and then I will re-write the site to create something like a SaaS system or whatever that seems like a Real Product.
 
-### `npm run build`
+## My next steps are:
+- More about CSS;
+- More about TailwindCSS;
+- More about ReactJS;
+- TypeScript;
+- Automaated Tests in ReactJS websites;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The future of this project:
+- I'll build a "Real Product" from this repository, with Login system using 0Auth, with a PostgreSQL database using the Prisma.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Next features:
+ - [X] Create the basic of the site and learn about CSS.
+ - [ ] PostgreSQL Database with Prisma.
+ - [ ] Login System.
+ - [ ] Add more functions focused on Newsletters owners.
