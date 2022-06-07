@@ -14,6 +14,7 @@ const Scheduler = () => {
   const change = (args) => {
     scheduleObj.selectedDate = args.value;
     scheduleObj.dataBind();
+    console.log("Selected Date: ", args.value);
   };
 
   const onDragStart = (arg) => {
@@ -21,13 +22,21 @@ const Scheduler = () => {
     arg.navigation.enable = true;
   };
 
+  const getDate = () => {
+    const date = new Date();
+    const currentDate = date.toISOString();
+    // console.log("Current Data: ", scheduleObj.activeEventData);
+    return currentDate;
+  }
+
   return (
     <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
       <Header category="App" title="Calendar" />
       <ScheduleComponent
         height="650px"
         ref={(schedule) => setScheduleObj(schedule)}
-        selectedDate={new Date(2021, 0, 10)}
+        // selectedDate={new Date(2022, 0, 10)}
+        selectedDate={getDate()}
         eventSettings={{ dataSource: scheduleData }}
         dragStart={onDragStart}
       >
@@ -44,7 +53,7 @@ const Scheduler = () => {
             <tr style={{ height: '50px' }}>
               <td style={{ width: '100%' }}>
                 <DatePickerComponent
-                  value={new Date(2021, 0, 10)}
+                  value={getDate()}
                   showClearButton={false}
                   placeholder="Current Date"
                   floatLabelType="Always"
